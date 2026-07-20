@@ -1,0 +1,26 @@
+//LeetCode-7. Reverse Integer
+//Link: https://leetcode.com/problems/reverse-integer/
+#include <bits/stdc++.h>
+class Solution {
+public:
+    int reverse(int x) {
+        int ans=0;
+        while(x!=0){
+            int digit=x%10;
+            if((ans>INT_MAX/10)||(ans<INT_MIN/10)){//INT_MAC requires #include <climits>
+                return 0;
+            }
+            ans=(ans*10)+digit;
+            x=x/10;
+        }
+        return ans;
+    }
+};
+using namespace std;
+
+int main() {
+    Solution s;
+    // Type function name on , arguments on 
+    cout << "Output: " << s.reverse(123) << endl;
+    return 0;
+}
