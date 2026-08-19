@@ -21,4 +21,4 @@ Welcome to my repository tracking my progress through C++ programming and Data S
 
 * **Language**: C++
 * **Editor**: Visual Studio Code
-* **Compiler**: MinGW-w64 / GCC (configured via MSYS2 environment)
+* **Compiler**: MinGW-w64 / G++ (configured via MSYS2 environment)
