@@ -16,7 +16,6 @@ public:
 using namespace std;
 int main() {
     Solution s;
-    // Call your function here to test locally
     cout << s.hammingWeight(11) << endl; // Example input
     return 0;
 }

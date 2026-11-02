@@ -28,7 +28,8 @@ int main() {
     int result = BinarySearch(arr, 10, 3);
     if (result != -1) {
         cout << "Element found at index: " << result << endl;
-    } else {
+    } 
+    else {    
         cout << "Element not found in the array." << endl;
     }
     return 0;
